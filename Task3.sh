@@ -16,3 +16,7 @@ sudo vi /etc/ssh/sshd_config
 # type :wq to save and exit the file (sshd_config file)
 # now restart the sshd service
 systemctl restart sshd
+
+# now exit from the server
+exit
+# now repeate the above steps for other two servers as well
