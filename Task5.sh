@@ -1,4 +1,4 @@
-#The activity to install selinux on a remote server and set the selinx status to disable
+#The activity is to install selinux on a remote server and set the selinx status to disable
 #by editing the etc/selinux/config file
 # for this first we have to log into linux server then gain root access
 ssh banner@172.16.238.12	
