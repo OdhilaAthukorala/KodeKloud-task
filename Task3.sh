@@ -3,7 +3,7 @@
 #get into as sudo user
 #edit the /etc/ssh/sshd_config file and set PermitRootLogin to no
 #restart the sshd service using systemctl restart sshd
-ssh steve@Am3ric@
+ssh steve@172.16.238.11
 # give yes to login
 # enter the password of the user steve. it is given in the kodekloud infarstucture detail guide
 # now gain root access
