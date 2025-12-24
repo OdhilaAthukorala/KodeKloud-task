@@ -50,7 +50,7 @@ sudo vi /scripts/news_backup.sh
 END_COMMENT
 
 #change the file permission to make executable
-chmod +x /scripts/news_backup.sh
+chmod +x /scripts/news_backup.sh    # or use chmod 755 /scripts/news_backup.sh
 #now run the script to verify
 bash /scripts/news_backup.sh
 #now login to backup server to verify the file is copied
