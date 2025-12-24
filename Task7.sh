@@ -2,7 +2,7 @@
 # for that we have to create the private and public key in the thor jump host machine and copy the public key 
 # to the respective app server
 
-sh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096
 
 #now copy the public key to respective app servers
 ssh-copy-id tony@172.16.238.10	

@@ -24,3 +24,4 @@ crontab -e
 # press esc then type :wq to save and exit the file
 #repeate this for all other linux app servers
 exit
+
