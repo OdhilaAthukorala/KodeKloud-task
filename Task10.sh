@@ -9,12 +9,12 @@ sudo yum install zip -y
 #now login as root user
 sudo -i
 #check if backup directory is created if not create it
-ls /backup
+ls -d /backup
 #if not present create backup directory
 mkdir -p /backup
 #check if scripts directory is created if not create it
-ls /scripts
-#if not present create backup directory
+ls -d /scripts
+#if not present create scripts directory
 mkdir -p /scripts
 #create a passwordless login to backup server
 ssh-keygen -t rsa -b 4096
