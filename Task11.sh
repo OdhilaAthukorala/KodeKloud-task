@@ -1,7 +1,7 @@
-Activity is to install a tomcat server on a remote server and host a file to serve it in a particular port
-first install java development kit (jdk)
+#Activity is to install a tomcat server on a remote server and host a file to serve it in a particular port
+#first tomcat server should be installed on the remote server
 
-ssh tony@172.16.238.10
+ssh steve@172.16.238.11
 sudo -i
 #put the passowrd to login as root
 
