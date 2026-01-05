@@ -38,4 +38,6 @@ curl http://stapp01:8087 #or curl http://172.16.238.10:8087
 sudo iptables -I INPUT -p tcp --dport 6300 -j ACCEPT
 sudo service iptables save
 
-#it will show the default apache web page
+#try to access the webserver on jump machine
+curl http://stapp01:8087 #or curl http://172.16.238.10:8087
+#it will show the index.html page
