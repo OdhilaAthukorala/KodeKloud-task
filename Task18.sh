@@ -9,7 +9,7 @@ sudo dnf install mariadb-server -y
 #start the mariadb service
 systemctl enable --now mariadb
 #login to mariadb shell
-sudo mariabd
+sudo mariadb
 #code inside the mariadb shell
 <<'COMMENT'
  CREATE DATABASE kodekloud_db8;
